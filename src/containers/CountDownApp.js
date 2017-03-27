@@ -1,6 +1,6 @@
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import { createAction, createReducer } from 'redux-actions';
+import { createAction, createReducer } from 'redux-act';
 import CountDown from '../components/CountDown';
 
 const onDecrement = createAction('Decrements');
